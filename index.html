@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+<section class="head">
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo">Tshego</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact Me</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+        <!---<div class="text-box">
+            <h1>Becoming Of Myself</h1>
+              <h6>by</h6>
+              <h2>Tshego Modise</h2>
+         </div>--->
+      </header>
+     </section>
+   <!---About--Me-->
+    <section class="aboutme">
+        <h1 class="about-slide-left">About Me</h1>
+
+        <div class="me-foul">
+            <img src="./images/Tshego-2.jpg" alt="Tshego-2" class="about-slide-left">
+            <p  class="about-slide-left">Hello there. <br> My Name is Tsheog Modise,I am a friend ,a sister,a daughther, soon to be a wife and I am a CEO of CEO of Aeon Investment Management.
+                As a driven and visionary young professional, I've had the <br> opportunity while pursuing an Accounting qualification to have the following professional experiences. 
+                <br> My current involvement in the financial services industry is to become a business leader in the investment industry.
+                career move and decision is based on this vision.<br>
+                <br>
+                <a href="#" class="btn">Read More <i class="ri-arrow-right-line"></i></a> 
+            </p>
+        </div>
+    </section>
+    <!---Portfolio-->
+     <section class="portfolio">
+        <h1 class="portfolio-slide-left">My Portfolio</h1>
+        <div class="me-foul">
+            <img src="./images/Aeon-Investment-Management-Tshego-Modise.jpg" alt="Tshego-3"  class="portfolio-slide-left">
+            <p  class="portfolio-slide-left">Hello there. <br> In 2021 I was appointed Chief Executive Officer at Aeon Investment Management and serve on the board of Aeon Investment Management as an Executive Director. In my capacity as CEO, <br> My role is focused on business strategy and management. <br> I also heads up the business development and brand management.<br>
+                <br>
+                <a href="#" class="btn">Read More <i class="ri-arrow-right-line"></i></a> 
+            </p>
+             
+        </div>
+     </section>
+      <!--Blog-->
+     <section class="Blog">
+        <h1 class="Blog-slide-left">My Blog</h1>
+            <div class="row" class="Blog-slide-left">
+                <div class="Blog-col">
+                    <img src="./images/never give up.jpg" class="Blog-slide-left">
+                     <p class="Blog-slide-left">I like journals and recording my thoughts, ideas, emotional state, prayers and dreams. <br>
+                     <a href="#" class="btn">Read More <i class="ri-arrow-right-line"></i></a>
+                    </p>
+                     
+                </div>
+                <div class="Blog-col">
+                     <img src="./images/Tshego-4.jpg" class="Blog-slide-left">
+                     <p  class="Blog-slide-left">Go into the spaces that challenge you and grow. <br>
+                     <a href="#" class="btn">Read More <i class="ri-arrow-right-line"></i></a>
+                     </p>
+                      
+                </div>
+                <div class="Blog-col">
+                     <img src="./images/cooking.jpg" class="Blog-slide-left">
+                     <p class="Blog-slide-left">Cooking has always helped to make the day's pressure soothe away.
+                     Today the recipe called for a delicious soup. <br>
+                     <a href="#" class="btn">Read More <i class="ri-arrow-right-line"></i></a> 
+                     </p>
+                     
+                </div>
+            </div>
+     </section>
+     <!---Footer-->
+     <footer class="footer">
+        <div class="footer_container container">
+            <div class="footer_group">
+                <ul class="footer_list">
+                    <li class="footer_list-item">
+                        <a href="https://twitter.com/capitalist_diva" class="footer_list-link">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                    </li>
+                    <li class="footer_list-item">
+                        <a href="https://www.facebook.com/rtshego.modise " class="footer_list-link">
+                            <i class="ri-facebook-line"></i>
+                        </a>
+                    </li>
+                    <li class="footer_list-item">
+                        <a href="https://za.linkedin.com/in/tshego-modise-4b222380" class="footer_list-link">
+                            <i class="ri-linkedin-line"></i>
+                        </a>
+                    </li>
+                </ul>
+                 <span class="footer_copyright">&copy; Tshego Modise 2022. All right reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+
+        hamburger.addEventListener("click", mobileMenu);
+
+         function mobileMenu() {
+        hamburger.classList.toggle("active");
+      navMenu.classList.toggle("active");
+}
+    </script>
+  <script src="app.js"></script>
+</body>
+</html>
